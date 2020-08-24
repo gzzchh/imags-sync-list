@@ -4,6 +4,12 @@ name: 同步容器镜像
 on:
   push:
 
+env:
+  TKE_USERNAME: ${{ secrets.TKE_USERNAME }}
+  TKE_PASSWORD: ${{ secrets.TKE_PASSWORD }}
+  ACR_USERNAME: ${{ secrets.ACR_USERNAME }}
+  ACR_PASSWORD: ${{ secrets.ACR_PASSWORD }}
+
 # 任务
 jobs:
   sync-images:
