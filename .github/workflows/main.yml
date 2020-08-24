@@ -17,7 +17,7 @@ jobs:
         run: bash ./tools.sh
 
       - name: 同步翼龙镜像
-        run: image-syncer -r 3 --auth config.json --images images/pter.yml
+        run: ./image-syncer -r 3 --auth config.json --images images/pter.yml
 
       - name: 同步ELK镜像
-        run: image-syncer -r 3 --auth config.json --images images/elk.yml
+        run: ./image-syncer -r 3 --auth config.json --images images/elk.yml
