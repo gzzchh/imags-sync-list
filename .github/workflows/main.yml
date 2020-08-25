@@ -12,22 +12,39 @@ env:
 
 # 任务
 jobs:
-  sync-images:
-    # 服务器环境：最新版 Ubuntu
+  sync-images-pter:
     runs-on: ubuntu-latest
     steps:
       - name: 检出代码
         uses: actions/checkout@v2
-
       - name: 准备同步工具
         run: bash ./tools.sh
-
       - name: 同步翼龙镜像
         run: ./image-syncer -r 3 --auth auth.json --images images/pter.yml
-
+  sync-images-elk:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v2
+      - name: 准备同步工具
+        run: bash ./tools.sh
       - name: 同步ELK镜像
         run: ./image-syncer -r 3 --auth auth.json --images images/elk.yml
+  sync-images-gitlab:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v2
+      - name: 准备同步工具
+        run: bash ./tools.sh
       - name: 同步GitLab镜像
         run: ./image-syncer -r 3 --auth auth.json --images images/gitlab.yml
+  sync-images-pga:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v2
+      - name: 准备同步工具
+        run: bash ./tools.sh
       - name: 同步PGA Stack镜像
         run: ./image-syncer -r 3 --auth auth.json --images images/pga.yml
