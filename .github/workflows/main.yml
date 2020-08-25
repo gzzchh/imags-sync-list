@@ -27,3 +27,7 @@ jobs:
 
       - name: 同步ELK镜像
         run: ./image-syncer -r 3 --auth auth.json --images images/elk.yml
+      - name: 同步GitLab镜像
+        run: ./image-syncer -r 3 --auth auth.json --images images/gitlab.yml
+      - name: 同步PGA Stack镜像
+        run: ./image-syncer -r 3 --auth auth.json --images images/pga.yml

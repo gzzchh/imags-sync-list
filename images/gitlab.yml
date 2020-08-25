@@ -1,0 +1,4 @@
+# GitLab EE 和 Runner
+gitlab/gitlab-ee:latest: ccr.ccs.tencentyun.com/gzzchh/stacks:gitlab-ee
+gitlab/gitlab-runner:latest: ccr.ccs.tencentyun.com/gzzchh/stacks:gitlab-runner
+grafana/grafana:latest: ccr.ccs.tencentyun.com/gzzchh/stacks:grafana
