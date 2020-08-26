@@ -3,7 +3,8 @@ name: 同步容器镜像
 # 触发条件：在 push 到 master 分支后
 on:
   push:
-
+  schedule:
+  - cron: '0 21 * * *'
 env:
   TKE_USERNAME: ${{ secrets.TKE_USERNAME }}
   TKE_PASSWORD: ${{ secrets.TKE_PASSWORD }}
@@ -47,4 +48,22 @@ jobs:
       - name: 准备同步工具
         run: bash ./tools.sh
       - name: 同步PGA Stack镜像
+        run: ./image-syncer -r 3 --auth auth.json --images images/pga.yml
+  sync-images-lcpp:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v2
+      - name: 准备同步工具
+        run: bash ./tools.sh
+      - name: 同步LCPP外部镜像
+        run: ./image-syncer -r 3 --auth auth.json --images images/pga.yml
+  sync-images-other:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v2
+      - name: 准备同步工具
+        run: bash ./tools.sh
+      - name: 同步其他镜像
         run: ./image-syncer -r 3 --auth auth.json --images images/pga.yml
