@@ -1,3 +1,4 @@
 # 其他镜像 腾讯云
 v2fly/v2fly-core:latest: ccr.ccs.tencentyun.com/gzzchh/stacks:v2ray
 portainer/portainer:latest: ccr.ccs.tencentyun.com/gzzchh/stacks:portainer
+requarks/wiki:2: ccr.ccs.tencentyun.com/gzzchh/stacks:wikijs
