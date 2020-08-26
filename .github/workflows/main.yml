@@ -57,7 +57,7 @@ jobs:
       - name: 准备同步工具
         run: bash ./tools.sh
       - name: 同步LCPP外部镜像
-        run: ./image-syncer -r 3 --auth auth.json --images images/pga.yml
+        run: ./image-syncer -r 3 --auth auth.json --images images/lcpp.yml
   sync-images-other:
     runs-on: ubuntu-latest
     steps:
@@ -66,4 +66,4 @@ jobs:
       - name: 准备同步工具
         run: bash ./tools.sh
       - name: 同步其他镜像
-        run: ./image-syncer -r 3 --auth auth.json --images images/pga.yml
+        run: ./image-syncer -r 3 --auth auth.json --images images/other.yml
