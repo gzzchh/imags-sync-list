@@ -3,5 +3,5 @@ v2fly/v2fly-core:latest: ccr.ccs.tencentyun.com/gzzchh/stacks:v2ray
 portainer/portainer:latest: ccr.ccs.tencentyun.com/gzzchh/stacks:portainer
 requarks/wiki:2: ccr.ccs.tencentyun.com/gzzchh/stacks:wikijs
 # 反向同步 腾讯云到DockerHub
-ccr.ccs.tencentyun.com/gzzchh/stacks:php-fpm-73: gzzchh/stacks:php-fpm-73
-ccr.ccs.tencentyun.com/gzzchh/stacks:php-fpm-74: gzzchh/stacks:php-fpm-74
+# ccr.ccs.tencentyun.com/gzzchh/stacks:php-fpm-73: gzzchh/stacks:php-fpm-73
+# ccr.ccs.tencentyun.com/gzzchh/stacks:php-fpm-74: gzzchh/stacks:php-fpm-74
