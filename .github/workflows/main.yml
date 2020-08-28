@@ -4,7 +4,7 @@ name: 同步容器镜像
 on:
   push:
   schedule:
-  - cron: '0 21 * * *'
+  - cron: '0 11,23 * * *'
 env:
   TKE_USERNAME: ${{ secrets.TKE_USERNAME }}
   TKE_PASSWORD: ${{ secrets.TKE_PASSWORD }}
