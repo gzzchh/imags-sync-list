@@ -4,12 +4,14 @@ name: 同步容器镜像
 on:
   push:
   schedule:
-  - cron: '0 11,23 * * *'
+    - cron: "0 11,23 * * *"
 env:
   TKE_USERNAME: ${{ secrets.TKE_USERNAME }}
   TKE_PASSWORD: ${{ secrets.TKE_PASSWORD }}
   ACR_USERNAME: ${{ secrets.ACR_USERNAME }}
   ACR_PASSWORD: ${{ secrets.ACR_PASSWORD }}
+  HUB_USERNAME: ${{ secrets.HUB_USERNAME }}
+  HUB_PASSWORD: ${{ secrets.HUB_PASSWORD }}
 
 # 任务
 jobs:
