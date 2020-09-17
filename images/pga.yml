@@ -1,4 +1,4 @@
 # PGA监控堆栈
-grafana/grafana:latest: ccr.ccs.tencentyun.com/gzzchh/stacks:grafana
-prom/prometheus:latest: ccr.ccs.tencentyun.com/gzzchh/stacks:prometheus
-prom/alertmanager:latest: ccr.ccs.tencentyun.com/gzzchh/stacks:alertmanager
+grafana/grafana:latest: ccr.ccs.tencentyun.com/gzzchh/sync:grafana
+prom/prometheus:latest: ccr.ccs.tencentyun.com/gzzchh/sync:prometheus
+prom/alertmanager:latest: ccr.ccs.tencentyun.com/gzzchh/sync:alertmanager
