@@ -23,7 +23,7 @@ jobs:
       - name: 准备同步工具
         run: bash ./tools.sh
       - name: 同步翼龙镜像
-        run: ./image-syncer -r 3 --auth auth.json --images images/pter.yml
+        run: ./image-syncer -r 5 --auth auth.json --images images/pter.yml
   sync-images-elk:
     runs-on: ubuntu-latest
     steps:
@@ -32,7 +32,7 @@ jobs:
       - name: 准备同步工具
         run: bash ./tools.sh
       - name: 同步ELK镜像
-        run: ./image-syncer -r 3 --auth auth.json --images images/elk.yml
+        run: ./image-syncer -r 5 --auth auth.json --images images/elk.yml
   sync-images-gitlab:
     runs-on: ubuntu-latest
     steps:
@@ -41,7 +41,7 @@ jobs:
       - name: 准备同步工具
         run: bash ./tools.sh
       - name: 同步GitLab镜像
-        run: ./image-syncer -r 3 --auth auth.json --images images/gitlab.yml
+        run: ./image-syncer -r 5 --auth auth.json --images images/gitlab.yml
   sync-images-pga:
     runs-on: ubuntu-latest
     steps:
@@ -50,7 +50,7 @@ jobs:
       - name: 准备同步工具
         run: bash ./tools.sh
       - name: 同步PGA Stack镜像
-        run: ./image-syncer -r 3 --auth auth.json --images images/pga.yml
+        run: ./image-syncer -r 5 --auth auth.json --images images/pga.yml
   sync-images-lcpp:
     runs-on: ubuntu-latest
     steps:
@@ -59,7 +59,7 @@ jobs:
       - name: 准备同步工具
         run: bash ./tools.sh
       - name: 同步LCPP外部镜像
-        run: ./image-syncer -r 3 --auth auth.json --images images/lcpp.yml
+        run: ./image-syncer -r 5 --auth auth.json --images images/lcpp.yml
   sync-images-other:
     runs-on: ubuntu-latest
     steps:
@@ -68,4 +68,4 @@ jobs:
       - name: 准备同步工具
         run: bash ./tools.sh
       - name: 同步其他镜像
-        run: ./image-syncer -r 3 --auth auth.json --images images/other.yml
+        run: ./image-syncer -r 5 --auth auth.json --images images/other.yml
