@@ -3,5 +3,4 @@ v2fly/v2fly-core:latest: ccr.ccs.tencentyun.com/gzzchh/sync:v2ray
 portainer/portainer:latest: ccr.ccs.tencentyun.com/gzzchh/sync:portainer
 requarks/wiki:2: ccr.ccs.tencentyun.com/gzzchh/sync:wikijs
 # nondanee/unblockneteasemusic:latest: ccr.ccs.tencentyun.com/gzzchh/sync:unm
-yousiki/smartdns:x86_64: ccr.ccs.tencentyun.com/gzzchh/sync:smartdns
 teddysun/kms:latest: ccr.ccs.tencentyun.com/gzzchh/sync:kms
