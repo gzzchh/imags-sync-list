@@ -4,3 +4,5 @@ portainer/portainer:latest: ccr.ccs.tencentyun.com/gzzchh/sync:portainer
 requarks/wiki:2: ccr.ccs.tencentyun.com/gzzchh/sync:wikijs
 # nondanee/unblockneteasemusic:latest: ccr.ccs.tencentyun.com/gzzchh/sync:unm
 teddysun/kms:latest: ccr.ccs.tencentyun.com/gzzchh/sync:kms
+# PlantUML Server
+plantuml/plantuml-server:tomcat: ccr.ccs.tencentyun.com/gzzchh/sync:plantuml

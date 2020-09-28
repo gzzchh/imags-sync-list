@@ -15,3 +15,14 @@ prom/graphite-exporter:latest: ccr.ccs.tencentyun.com/gzzchh/prometheus-exporter
 prom/mysqld-exporter:latest: ccr.ccs.tencentyun.com/gzzchh/prometheus-exporters:mysqld-exporter
 prom/influxdb-exporter:latest: ccr.ccs.tencentyun.com/gzzchh/prometheus-exporters:influxdb-exporter
 prom/consul-exporter:latest: ccr.ccs.tencentyun.com/gzzchh/prometheus-exporters:consul-exporter
+# VictoriaMereics
+victoriametrics/victoria-metrics:lastest: ccr.ccs.tencentyun.com/gzzchh/vtm:vtm
+victoriametrics/victoriametrics/vmrestore:lastest: ccr.ccs.tencentyun.com/gzzchh/vtm:vmrestore
+victoriametrics/victoriametrics/vmbackup:lastest: ccr.ccs.tencentyun.com/gzzchh/vtm:vmbackup
+victoriametrics/victoriametrics/vmauth:lastest: ccr.ccs.tencentyun.com/gzzchh/vtm:vmauth
+victoriametrics/victoriametrics/vmalert:lastest: ccr.ccs.tencentyun.com/gzzchh/vtm:vmalert
+victoriametrics/victoriametrics/vmagent:lastest: ccr.ccs.tencentyun.com/gzzchh/vtm:vmagent
+victoriametrics/victoriametrics/vmstorage:lastest: ccr.ccs.tencentyun.com/gzzchh/vtm:vmstorage
+victoriametrics/victoriametrics/vmselect:lastest: ccr.ccs.tencentyun.com/gzzchh/vtm:vmselect
+victoriametrics/victoriametrics/vminsert:lastest: ccr.ccs.tencentyun.com/gzzchh/vtm:vminsert
+victoriametrics/victoriametrics/vmbackuper:lastest: ccr.ccs.tencentyun.com/gzzchh/vtm:vmbackuper
