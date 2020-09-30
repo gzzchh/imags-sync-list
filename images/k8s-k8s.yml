@@ -1,0 +1,12 @@
+# K8S k8s开头
+gcr.k8s.io/k8s-dns-dnsmasq-amd64: ccr.ccs.tencentyun.com/sync8s/k8s-dns-dnsmasq-amd64
+gcr.k8s.io/k8s-dns-dnsmasq-arm64: ccr.ccs.tencentyun.com/sync8s/k8s-dns-dnsmasq-arm64
+gcr.k8s.io/k8s-dns-dnsmasq-nanny: ccr.ccs.tencentyun.com/sync8s/k8s-dns-dnsmasq-nanny
+gcr.k8s.io/k8s-dns-dnsmasq-nanny-amd64: ccr.ccs.tencentyun.com/sync8s/k8s-dns-dnsmasq-nanny-amd64
+gcr.k8s.io/k8s-dns-dnsmasq-nanny-arm64: ccr.ccs.tencentyun.com/sync8s/k8s-dns-dnsmasq-nanny-arm64
+gcr.k8s.io/k8s-dns-kube-dns: ccr.ccs.tencentyun.com/sync8s/k8s-dns-kube-dns
+gcr.k8s.io/k8s-dns-kube-dns-amd64: ccr.ccs.tencentyun.com/sync8s/k8s-dns-kube-dns-amd64
+gcr.k8s.io/k8s-dns-kube-dns-arm64: ccr.ccs.tencentyun.com/sync8s/k8s-dns-kube-dns-arm64
+gcr.k8s.io/k8s-dns-sidecar: ccr.ccs.tencentyun.com/sync8s/k8s-dns-sidecar
+gcr.k8s.io/k8s-dns-sidecar-amd64: ccr.ccs.tencentyun.com/sync8s/k8s-dns-sidecar-amd64
+gcr.k8s.io/k8s-dns-sidecar-arm64: ccr.ccs.tencentyun.com/sync8s/k8s-dns-sidecar-arm64
