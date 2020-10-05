@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v2
       - name: 准备同步工具
         run: bash ./tools.sh
-      - name: 同步翼龙镜像
+      - name: 同步 翼龙 镜像
         run: ./image-syncer -r 5 --auth auth.json --images images/pter.yml
   sync-images-elk:
     runs-on: ubuntu-latest
@@ -31,7 +31,7 @@ jobs:
         uses: actions/checkout@v2
       - name: 准备同步工具
         run: bash ./tools.sh
-      - name: 同步ELK镜像
+      - name: 同步 ELK 镜像
         run: ./image-syncer -r 5 --auth auth.json --images images/elk.yml
   sync-images-gitlab:
     runs-on: ubuntu-latest
@@ -40,17 +40,17 @@ jobs:
         uses: actions/checkout@v2
       - name: 准备同步工具
         run: bash ./tools.sh
-      - name: 同步GitLab镜像
+      - name: 同步 GitLab 镜像
         run: ./image-syncer -r 5 --auth auth.json --images images/gitlab.yml
-  sync-images-pga:
+  sync-images-cnm:
     runs-on: ubuntu-latest
     steps:
       - name: 检出代码
         uses: actions/checkout@v2
       - name: 准备同步工具
         run: bash ./tools.sh
-      - name: 同步PGA Stack镜像
-        run: ./image-syncer -r 5 --auth auth.json --images images/pga.yml
+      - name: 同步 CNM Stack镜像
+        run: ./image-syncer -r 5 --auth auth.json --images images/cnm.yml
   sync-images-lcpp:
     runs-on: ubuntu-latest
     steps:
