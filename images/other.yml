@@ -10,3 +10,6 @@ tmate/tmate-ssh-server:latest: ccr.ccs.tencentyun.com/gzzchh/sync:tmate
 # PostgreSQL
 postgres:12: ccr.ccs.tencentyun.com/gzzchh/sync:postgres-12
 postgres:13: ccr.ccs.tencentyun.com/gzzchh/sync:postgres-13
+# Bitwarden
+bitwardenrs/server-mysql:latest: ccr.ccs.tencentyun.com/gzzchh/sync:bitwarden-mysql
+bitwardenrs/server-postgresql:latest: ccr.ccs.tencentyun.com/gzzchh/sync:bitwarden-postgresql
