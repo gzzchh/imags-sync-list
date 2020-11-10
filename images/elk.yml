@@ -1,18 +1,18 @@
-# Elastic 7.9.0
+# Elastic 7.9.3
 # Elastic ELK组合
-docker.elastic.co/elasticsearch/elasticsearch:7.9.0-amd64: ccr.ccs.tencentyun.com/elastic-mirror/elk:elasticsearch-7.9.0
-docker.elastic.co/kibana/kibana:7.9.0: ccr.ccs.tencentyun.com/elastic-mirror/elk:kibana-7.9.0
-docker.elastic.co/logstash/logstash:7.9.0: ccr.ccs.tencentyun.com/elastic-mirror/elk:logstash-7.9.0
+docker.elastic.co/elasticsearch/elasticsearch:7.9.3-amd64: ccr.ccs.tencentyun.com/elastic-mirror/elk:elasticsearch-7.9.3
+docker.elastic.co/kibana/kibana:7.9.3: ccr.ccs.tencentyun.com/elastic-mirror/elk:kibana-7.9.3
+docker.elastic.co/logstash/logstash:7.9.3: ccr.ccs.tencentyun.com/elastic-mirror/elk:logstash-7.9.3
 # Elastic Beats
-docker.elastic.co/beats/auditbeat:7.9.0: ccr.ccs.tencentyun.com/elastic-mirror/beats:auditbeat-7.9.0
-docker.elastic.co/beats/filebeat:7.9.0: ccr.ccs.tencentyun.com/elastic-mirror/beats:filebeat-7.9.0
-docker.elastic.co/beats/heartbeat:7.9.0: ccr.ccs.tencentyun.com/elastic-mirror/beats:heartbeat-7.9.0
-docker.elastic.co/beats/journalbeat:7.9.0: ccr.ccs.tencentyun.com/elastic-mirror/beats:journalbeat-7.9.0
-docker.elastic.co/beats/metricbeat:7.9.0: ccr.ccs.tencentyun.com/elastic-mirror/beats:metricbeat-7.9.0
-docker.elastic.co/beats/packetbeat:7.9.0: ccr.ccs.tencentyun.com/elastic-mirror/beats:packetbeat-7.9.0
+docker.elastic.co/beats/auditbeat:7.9.3: ccr.ccs.tencentyun.com/elastic-mirror/beats:auditbeat-7.9.3
+docker.elastic.co/beats/filebeat:7.9.3: ccr.ccs.tencentyun.com/elastic-mirror/beats:filebeat-7.9.3
+docker.elastic.co/beats/heartbeat:7.9.3: ccr.ccs.tencentyun.com/elastic-mirror/beats:heartbeat-7.9.3
+docker.elastic.co/beats/journalbeat:7.9.3: ccr.ccs.tencentyun.com/elastic-mirror/beats:journalbeat-7.9.3
+docker.elastic.co/beats/metricbeat:7.9.3: ccr.ccs.tencentyun.com/elastic-mirror/beats:metricbeat-7.9.3
+docker.elastic.co/beats/packetbeat:7.9.3: ccr.ccs.tencentyun.com/elastic-mirror/beats:packetbeat-7.9.3
 # Elastic Beats 剩下的奇奇怪怪的东西
-docker.elastic.co/beats/elastic-agent:7.9.0: ccr.ccs.tencentyun.com/elastic-mirror/beats:elastic-agent-7.9.0
-docker.elastic.co/beats/elastic-logging-plugin:7.9.0: ccr.ccs.tencentyun.com/elastic-mirror/beats:elastic-logging-plugin-7.9.0
+docker.elastic.co/beats/elastic-agent:7.9.3: ccr.ccs.tencentyun.com/elastic-mirror/beats:elastic-agent-7.9.3
+docker.elastic.co/beats/elastic-logging-plugin:7.9.3: ccr.ccs.tencentyun.com/elastic-mirror/beats:elastic-logging-plugin-7.9.3
 # Elastic APM Enterprise-Search
-docker.elastic.co/apm/apm-server:7.9.0: ccr.ccs.tencentyun.com/elastic-mirror/other:apm-server-7.9.0
-docker.elastic.co/enterprise-search/enterprise-search:7.9.0: ccr.ccs.tencentyun.com/elastic-mirror/other:enterprise-search-7.9.0
+docker.elastic.co/apm/apm-server:7.9.3: ccr.ccs.tencentyun.com/elastic-mirror/other:apm-server-7.9.3
+docker.elastic.co/enterprise-search/enterprise-search:7.9.3: ccr.ccs.tencentyun.com/elastic-mirror/other:enterprise-search-7.9.3
