@@ -13,3 +13,5 @@ postgres:13: ccr.ccs.tencentyun.com/gzzchh/sync:postgres-13
 # Bitwarden
 bitwardenrs/server-mysql:latest: ccr.ccs.tencentyun.com/gzzchh/sync:bitwarden-mysql
 bitwardenrs/server-postgresql:latest: ccr.ccs.tencentyun.com/gzzchh/sync:bitwarden-postgresql
+# rclone
+rclone/rclone: ccr.ccs.tencentyun.com/gzzchh/sync:rclone
