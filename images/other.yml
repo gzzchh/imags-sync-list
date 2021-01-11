@@ -15,3 +15,7 @@ bitwardenrs/server-mysql:latest: ccr.ccs.tencentyun.com/gzzchh/sync:bitwarden-my
 bitwardenrs/server-postgresql:latest: ccr.ccs.tencentyun.com/gzzchh/sync:bitwarden-postgresql
 # rclone
 rclone/rclone: ccr.ccs.tencentyun.com/gzzchh/sync:rclone
+# PowerShell
+mcr.microsoft.com/powershell: ccr.ccs.tencentyun.com/gzzchh/sync:pwsh
+# FCCT Fedora CoreOS 点火工具
+quay.io/coreos/fcct:release: ccr.ccs.tencentyun.com/gzzchh/sync:fcct
