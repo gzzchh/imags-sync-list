@@ -19,3 +19,5 @@ rclone/rclone: ccr.ccs.tencentyun.com/gzzchh/sync:rclone
 mcr.microsoft.com/powershell: ccr.ccs.tencentyun.com/gzzchh/sync:pwsh
 # FCCT Fedora CoreOS 点火工具
 quay.io/coreos/fcct:release: ccr.ccs.tencentyun.com/gzzchh/sync:fcct
+# 容器自动升级工具
+containrrr/watchtower:latest: ccr.ccs.tencentyun.com/gzzchh/sync:watchtower
