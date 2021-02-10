@@ -3,3 +3,4 @@ caddy:latest: ccr.ccs.tencentyun.com/gzzchh/sync:caddy
 percona/percona-server:8.0: ccr.ccs.tencentyun.com/gzzchh/sync:percona-mysql-8
 redis:latest: ccr.ccs.tencentyun.com/gzzchh/sync:redis
 neilpang/acme.sh:latest: ccr.ccs.tencentyun.com/gzzchh/sync:acmesh
+postgres:13: ccr.ccs.tencentyun.com/gzzchh/sync:postgres-13
