@@ -1,3 +1,4 @@
 # GitLab EE 和 Runner
 gitlab/gitlab-ee:latest: ccr.ccs.tencentyun.com/gzzchh/sync:gitlab-ee
+gitlab/gitlab-ce:latest: ccr.ccs.tencentyun.com/gzzchh/sync:gitlab-ce
 gitlab/gitlab-runner:latest: ccr.ccs.tencentyun.com/gzzchh/sync:gitlab-runner
