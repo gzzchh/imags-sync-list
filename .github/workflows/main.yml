@@ -86,4 +86,4 @@ jobs:
       - name: 准备同步工具
         run: bash ./tools.sh
       - name: 同步其他镜像
-        run: ./image-syncer -r 5 --auth auth.json --images images/homoassistant.yml
+        run: ./image-syncer -r 5 --auth auth.json --images images/ory.yml
