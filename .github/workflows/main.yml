@@ -23,7 +23,7 @@ jobs:
       - name: 准备同步工具
         run: bash ./tools.sh
       - name: 同步 翼龙 镜像
-        run: ./image-syncer -r 5 --auth auth.json --images images/pter.yml
+        run: ./image-syncer -r 5 --proc 16 --auth auth.json --images images/pter.yml
   sync-images-elk:
     runs-on: ubuntu-latest
     steps:
@@ -32,7 +32,7 @@ jobs:
       - name: 准备同步工具
         run: bash ./tools.sh
       - name: 同步 ELK 镜像
-        run: ./image-syncer -r 5 --auth auth.json --images images/elk.yml
+        run: ./image-syncer -r 5 --proc 16 --auth auth.json --images images/elk.yml
   sync-images-gitlab:
     runs-on: ubuntu-latest
     steps:
@@ -41,7 +41,7 @@ jobs:
       - name: 准备同步工具
         run: bash ./tools.sh
       - name: 同步 GitLab 镜像
-        run: ./image-syncer -r 5 --auth auth.json --images images/gitlab.yml
+        run: ./image-syncer -r 5 --proc 16 --auth auth.json --images images/gitlab.yml
   sync-images-cnm:
     runs-on: ubuntu-latest
     steps:
@@ -50,7 +50,7 @@ jobs:
       - name: 准备同步工具
         run: bash ./tools.sh
       - name: 同步 CNM Stack镜像
-        run: ./image-syncer -r 5 --auth auth.json --images images/cnm.yml
+        run: ./image-syncer -r 5 --proc 16 --auth auth.json --images images/cnm.yml
   sync-images-lcpp:
     runs-on: ubuntu-latest
     steps:
@@ -59,7 +59,7 @@ jobs:
       - name: 准备同步工具
         run: bash ./tools.sh
       - name: 同步LCPP外部镜像
-        run: ./image-syncer -r 5 --auth auth.json --images images/lcpp.yml
+        run: ./image-syncer -r 5 --proc 16 --auth auth.json --images images/lcpp.yml
   sync-images-other:
     runs-on: ubuntu-latest
     steps:
@@ -68,7 +68,7 @@ jobs:
       - name: 准备同步工具
         run: bash ./tools.sh
       - name: 同步其他镜像
-        run: ./image-syncer -r 5 --auth auth.json --images images/other.yml
+        run: ./image-syncer -r 5 --proc 16 --auth auth.json --images images/other.yml
   sync-images-homoassistant:
     runs-on: ubuntu-latest
     steps:
@@ -77,7 +77,7 @@ jobs:
       - name: 准备同步工具
         run: bash ./tools.sh
       - name: 同步其他镜像
-        run: ./image-syncer -r 5 --auth auth.json --images images/homoassistant.yml
+        run: ./image-syncer -r 5 --proc 16 --auth auth.json --images images/homoassistant.yml
   sync-images-ory:
     runs-on: ubuntu-latest
     steps:
@@ -86,4 +86,4 @@ jobs:
       - name: 准备同步工具
         run: bash ./tools.sh
       - name: 同步其他镜像
-        run: ./image-syncer -r 5 --auth auth.json --images images/ory.yml
+        run: ./image-syncer -r 5 --proc 16 --auth auth.json --images images/ory.yml
