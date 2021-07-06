@@ -18,3 +18,5 @@ prom/graphite-exporter:latest: ccr.ccs.tencentyun.com/gzzchh/cnm:graphite-export
 prom/mysqld-exporter:latest: ccr.ccs.tencentyun.com/gzzchh/cnm:mysqld-exporter
 prom/influxdb-exporter:latest: ccr.ccs.tencentyun.com/gzzchh/cnm:influxdb-exporter
 prom/consul-exporter:latest: ccr.ccs.tencentyun.com/gzzchh/cnm:consul-exporter
+# Vector
+timberio/vector:latest-alpine: ccr.ccs.tencentyun.com/gzzchh/cnm:vector
