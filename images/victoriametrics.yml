@@ -5,7 +5,7 @@ victoriametrics/vmbackup:v1.62.0-enterprise: ccr.ccs.tencentyun.com/gzzchh/cnm:v
 victoriametrics/vmauth:v1.62.0-enterprise: ccr.ccs.tencentyun.com/gzzchh/cnm:vmauth
 victoriametrics/vmalert:v1.62.0-enterprise: ccr.ccs.tencentyun.com/gzzchh/cnm:vmalert
 victoriametrics/vmagent:v1.62.0-enterprise: ccr.ccs.tencentyun.com/gzzchh/cnm:vmagent
-victoriametrics/vmstorage:v1.62.0-enterprise: ccr.ccs.tencentyun.com/gzzchh/cnm:vmstorage
-victoriametrics/vmselect:v1.62.0-enterprise: ccr.ccs.tencentyun.com/gzzchh/cnm:vmselect
-victoriametrics/vminsert:v1.62.0-enterprise: ccr.ccs.tencentyun.com/gzzchh/cnm:vminsert
-victoriametrics/vmbackuper:v1.62.0-enterprise: ccr.ccs.tencentyun.com/gzzchh/cnm:vmbackuper
+# 下面的是集群版
+victoriametrics/vmstorage:v1.62.0-enterprise-cluster: ccr.ccs.tencentyun.com/gzzchh/cnm:vmstorage
+victoriametrics/vmselect:v1.62.0-enterprise-cluster: ccr.ccs.tencentyun.com/gzzchh/cnm:vmselect
+victoriametrics/vminsert:v1.62.0-enterprise-cluster: ccr.ccs.tencentyun.com/gzzchh/cnm:vminsert
