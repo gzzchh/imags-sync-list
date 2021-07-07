@@ -20,3 +20,5 @@ quay.io/coreos/fcct:release: ccr.ccs.tencentyun.com/gzzchh/sync:fcct
 containrrr/watchtower:latest: ccr.ccs.tencentyun.com/gzzchh/sync:watchtower
 # Sonatype Nexus 3
 sonatype/nexus3:latest: ccr.ccs.tencentyun.com/gzzchh/sync:nexus3
+# Faocalboard
+mattermost/focalboard: ccr.ccs.tencentyun.com/gzzchh/sync:focalboard
