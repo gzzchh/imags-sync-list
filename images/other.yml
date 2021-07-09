@@ -23,3 +23,5 @@ containrrr/watchtower:latest: ccr.ccs.tencentyun.com/gzzchh/sync:watchtower
 sonatype/nexus3:latest: ccr.ccs.tencentyun.com/gzzchh/sync:nexus3
 # Faocalboard
 mattermost/focalboard:latest: ccr.ccs.tencentyun.com/gzzchh/sync:focalboard
+# OpenProject
+openproject/community:11: ccr.ccs.tencentyun.com/gzzchh/sync:openproject
