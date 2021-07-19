@@ -13,9 +13,9 @@ tmate/tmate-websocket:latest: ccr.ccs.tencentyun.com/gzzchh/sync:tmate-websocket
 # vaultwarden/server-postgresql:latest: ccr.ccs.tencentyun.com/gzzchh/sync:bitwarden-postgresql
 vaultwarden/server:latest: ccr.ccs.tencentyun.com/gzzchh/sync:vaultwarden
 # rclone
-rclone/rclone: ccr.ccs.tencentyun.com/gzzchh/sync:rclone
+rclone/rclone:latest: ccr.ccs.tencentyun.com/gzzchh/sync:rclone
 # PowerShell
-mcr.microsoft.com/powershell: ccr.ccs.tencentyun.com/gzzchh/sync:pwsh
+mcr.microsoft.com/powershell:lates: ccr.ccs.tencentyun.com/gzzchh/sync:pwsh
 # FCCT Fedora CoreOS 点火工具
 quay.io/coreos/fcct:release: ccr.ccs.tencentyun.com/gzzchh/sync:fcct
 # 容器自动升级工具
@@ -26,3 +26,5 @@ sonatype/nexus3:latest: ccr.ccs.tencentyun.com/gzzchh/sync:nexus3
 mattermost/focalboard:latest: ccr.ccs.tencentyun.com/gzzchh/sync:focalboard
 # OpenProject
 openproject/community:11: ccr.ccs.tencentyun.com/gzzchh/sync:openproject
+# Redmine
+redmine:latest: ccr.ccs.tencentyun.com/gzzchh/sync:redmine
